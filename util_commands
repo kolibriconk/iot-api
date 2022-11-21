@@ -1,0 +1,20 @@
+  175  sudo ./vendor/bin/sail artisan migrate
+  176  ./vendor/bin/sail up -d
+  177  sudo ./vendor/bin/sail artisan migrate
+  178  sudo ./vendor/bin/sail artisan makd
+  179  php artisan make:model Temperature
+  180  ./vendor/bin/sail artisan make:model Temperature
+  181  ./vendor/bin/sail artisan make:controller Temperature
+  182  ./vendor/bin/sail artisan make:resource Temperature
+  183  ./vendor/bin/sail artisan make:request Temperature
+  184  ./vendor/bin/sail artisan migrate
+  185  ./vendor/bin/sail artisan migrate --force
+  186  ./vendor/bin/sail artisan make:migration
+  187  ./vendor/bin/sail artisan make:migration update_temperature_name
+  188  ./vendor/bin/sail artisan migrate --path=/database/migrations/2022_10_30_093642_create_temperature_table
+  189  ./vendor/bin/sail artisan migrate:refresh --path=/database/migrations/2022_10_30_093642_create_temperature_table.php
+  197  ls
+  198  cd mnt/c/Users/JOSE/WebProjects/iot-api/
+  199  ls
+  200  ./vendor/bin/sail uo -d
+  201  ./vendor/bin/sail up -d
